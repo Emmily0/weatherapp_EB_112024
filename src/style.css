@@ -1,5 +1,5 @@
 body {
-    background-color: #fef7fa;
+    background-color: #fffcfc;
     font-family: "Roboto", serif;
 }
 
@@ -10,4 +10,30 @@ body {
     box-shadow: 0 30px 50px rgba(144, 59, 112, 0.08);
     border-radius: 16px;
     padding: 30px;
+}
+
+.search-form-input {
+    background-color: #fff2f2;
+    border: none;
+    border-radius: 22px;
+    width: 80%;
+    font-size: 16px;
+    padding: 15px 20px;
+    color: #f8797a;
+}
+
+.search-form-input::placeholder {
+    color: #f8797a;
+    opacity: 1; 
+}
+
+.search-form-button {
+    background: #f8797a;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    margin-left: 5px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
 }
