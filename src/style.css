@@ -26,7 +26,7 @@ header{
     background-color: #fff2f2;
     border: none;
     border-radius: 30px;
-    width: 80%;
+    width: 79%;
     font-size: 16px;
     padding: 15px 20px;
     color: #f8797a;
@@ -42,11 +42,11 @@ header{
     padding: 15px 30px;
     border: none;
     border-radius: 30px;
-    margin-left: 5px;
     color: white;
     font-size: 16px;
     font-weight: 500;
     margin-top: 10px;
+    margin-left: 4px;
 }
 
 main {
@@ -69,7 +69,6 @@ main {
     color: rgba(39, 33, 66, 0.4);
     line-height: 24px;
     font-weight: 400;
-    margin-right: 34px; //responsive//
 }
 
 .weather-app-details strong {
@@ -82,20 +81,21 @@ main {
 }
 
 .weather-app-icon {
-    width: 100px;
-    height: 100px;
-    margin-top: -5px;
+    width: 88px;
+    height: 88px;
 }
 
 .weather-app-temperature {
     font-size: 80px;
+    line-height: 88px;
     font-weight: 500;
-    margin-left: -3px;
 }
 
 .weather-app-unit {
 margin-top: 10px;
 font-size: 30px;
+margin-right: 7px;
+
 }
 
 footer{
